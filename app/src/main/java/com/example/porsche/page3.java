@@ -27,8 +27,8 @@ public class page3 extends AppCompatActivity {
         binding = ActivityPage3Binding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_page3);
         listview = findViewById(R.id.listview);
-        int[] imageList = {R.drawable.cayenna,R.drawable.mecan,R.drawable.taycan};
-        String[] nameList = {"Cayenna", "Macan", "Taycan"};
+        int[] imageList = {R.drawable.aventador,R.drawable.diablo,R.drawable.huracan};
+        String[] nameList = {"Aventador", "Diablo", "Huracan"};
 
         for (int i = 0; i < imageList.length; i++){
             listData = new ListData(nameList[i], imageList[i]);
